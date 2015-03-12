@@ -5,9 +5,9 @@ Device = {
   width: {},
   height: {},
   _devices: {
-    iphone3: {width: 320, height: 480},
-    iphone4: {width: 320, height: 480},
-    iphone5: {width: 320, height: 568},
+    iphone3: {width: 320, height: 480}, // iPhone 3G, iPhone 3GS
+    iphone4: {width: 320, height: 480}, // iPhone 4, iPhone 4s
+    iphone5: {width: 320, height: 568}, // iPhone 5, iPhone 5c, iPhone s
     iphone6: {width: 375, height: 667},
     iphone6plus: {width: 414, height: 736},
     ipad: {width: 768, height: 1024},
