@@ -44,4 +44,7 @@ if (Device.isTouchDevice) {
   $(document).ready(function () {
     $('body').addClass('touch-device');
   });
+  $(document).ready(function () {
+    $('html').addClass('touch-device');
+  });
 }
