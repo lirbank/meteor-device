@@ -13,6 +13,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0.3.2');
   api.addFiles('device.js', 'client');
+  api.use('jquery', 'client');
   api.export('Device');
 });
 
