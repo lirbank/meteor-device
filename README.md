@@ -11,8 +11,8 @@ $ meteor add mikael:device
 ## Usage
 
 #### CSS
-On touch devices, a CSS class named `touch-device` is attached to the HTML element. This enables touch/non-touch 
-specific CSS selectors. For example, you can attach define CSS for a `:hover` pseudo on all non-touch devices 
+On touch devices, a CSS class named `touch-device` is attached to the HTML element. This enables touch/non-touch
+specific CSS selectors. For example, you can attach define CSS for a `:hover` pseudo on all non-touch devices
 like this:
 ```css
 html:not(.touch-device) .menu-item:hover {
@@ -73,3 +73,8 @@ Device.height.ipad // boolean
 Device.height.nexus5 // boolean
 Device.height.galaxys5 // boolean
 ```
+
+## References
+[iOS Resolution Quick Reference](http://www.iosres.com/)
+[The Ultimate Guide To iPhone Resolutions](http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
+[iPhone 6 Screens Demystified](http://www.paintcodeapp.com/news/iphone-6-screens-demystified)
